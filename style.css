@@ -1,0 +1,87 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url('https://image.freepik.com/vetores-gratis/ilustracao-de-um-termometro_53876-43945.jpg');
+  background-color: #e2f5fa;
+  background-size: 80vh;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#1c4969;
+  margin: 0 0 5px;
+  font-size: 72px;
+}
+
+.page-subtitle {
+  color:#1c4969;
+  margin-top: 5px;
+  display:block;
+  position: relative;
+  top:5px;
+  color: #1c4969;
+  font-size: 15pt;
+}
+
+p {
+  color: #1c4969;
+  text-align:center;
+  display:block;
+  font-size:20pt;
+}
+
+button {
+  background-color: #1c4969;
+  color: #e2f5fa;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Roboto Mono',monospace;
+  font-weight: bolder;
+}
+button:hover{
+  background-color: #e2f5fa;
+  color: #0e4375;
+  border:2px solid #0e4375;
+}
+#input{
+  border:2px solid #0e4375;
+        background-color: white;
+  width: 150px;
+  height: 30px;
+        border-radius: 5px;
+        font-size: 15px;
+}
+#box{
+  width: 200px;
+  height: 25px;
+        border-radius: 5px;
+        font-size: 15px;
+        border:2px solid  #0e4375;
+}
+#cars{
+  border:2px solid #0e4375;
+        background-color: white;
+  width: 150px;
+  height: 30px;
+        border-radius: 5px;
+        font-size: 15px;
+}
+#result{
+  border-radius: 5px;
+  height: 25px;
+  width: 200px;
+  font-size: 15px;
+  border:2px solid #0e4375;
+        background-color: white;
+}
+.head{
+  margin-top: 240px;
+  font-size: 10px;
+}

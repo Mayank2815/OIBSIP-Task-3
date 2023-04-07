@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title> Temperature Converter </title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Temperature Converter</h1>
+      <br><br>
+      <div id="val" display="flex">
+    		<input id="box" placeholder ="Enter temperature" onclick="txt1()">
+			<select id="input" >
+    			 
+				<option value="Celcius" >In degree Celcius</option>
+				<option value="Fahrenheit" >In degree Fahrenheit</option>
+				<option value="Kelvin">In Kelvin</option>
+				
+		   </select>
+        </div>
+      <p id="subTitulo" class="page-subtitle"></p>
+      <div>
+        <br>
+        <p>Converting</p>
+        <div class="drop">
+
+          <select id="cars" >
+                   <option value="Celcius" >To Celcius</option>
+                   <option value="Fahrenheit" >To Fahrenheit</option>
+           <option value="Kelvin">To Kelvin</option>
+                   
+              </select>
+              <br><br>
+        <button type="submit" onclick="converter()">Convert</button>
+        </div><br><br><br>
+        <input id="result" placeholder ="Result" readonly>
+      </div>
+      <div class="head">
+        <br>
+        <p>© 2023 <a href="index.html">Mayank Mohan Pandey</a>|All rights reserved.</p>
+        </div>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
